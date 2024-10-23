@@ -1,0 +1,188 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* 헤더 */
+
+    .main_header {
+        position: relative;
+        width: 700px;
+        height: 1000px;
+    }
+
+    .main_header > .main_nav > .MAINIMG {
+        position: absolute;
+        width: 700px;
+        height: 1000px;
+    }
+
+    .main_header > .main_nav > .MAINIMG2 {
+        position: absolute;
+        left: 263px;
+        top: 40px;
+    }
+
+    .main_header > .main_nav > .MAINIMG3 {
+        position: absolute;
+        width: 500px;
+        height: 850px;
+        right: 100px;
+        bottom: 50px;
+        opacity: 80%;
+    }
+
+    .main_header > .main_nav > .main_form > .Label_name {
+        position: absolute;
+        z-index: 10;
+        left: 150px;
+        top: 150px;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+
+    .main_header > .main_nav > .main_form > .Label_name2 {
+        position: absolute;
+        z-index: 10;
+        left: 150px;
+        top: 180px;
+        width: 390px;
+        height: 50px;
+        font-size: 26px;
+        border: 3px solid;
+    }
+
+    .main_header > .main_nav > .main_form > .Label_Job {
+        position: absolute;
+        z-index: 10;
+        left: 150px;
+        top: 280px;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+
+    .main_header > .main_nav > .main_form > .main_select {
+        position: absolute;
+        z-index: 10;
+        left: 150px;
+        top: 320px;
+        width: 390px;
+        height: 50px;
+    }
+
+    .main_header > .main_nav > .main_form > .main_select > .EachJob {
+        font-size: 26px;
+    }
+
+
+    .main_header > .main_nav > .main_form > .Label_belong {
+        position: absolute;
+        z-index: 10;
+        left: 150px;
+        top: 390px;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+
+    .main_header > .main_nav > .main_form > .Label_belong2 {
+        position: absolute;
+        z-index: 10;
+        left: 150px;
+        top: 420px;
+        width: 390px;
+        height: 50px;
+        font-size: 26px;
+        border: 3px solid;
+    }
+
+    .main_header > .main_nav > .main_form > .Label_Id {
+        position: absolute;
+        z-index: 10;
+        left: 150px;
+        top: 510px;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+
+    .main_header > .main_nav > .main_form > .Label_Id2 {
+        position: absolute;
+        z-index: 10;
+        left: 150px;
+        top: 545px;
+        width: 390px;
+        height: 50px;
+        font-size: 26px;
+        border: 3px solid;
+    }
+
+    .main_header > .main_nav > .main_form > .Label_password {
+        position: absolute;
+        z-index: 10;
+        left: 150px;
+        top: 640px;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+
+    .main_header > .main_nav > .main_form > .Label_password2 {
+        position: absolute;
+        z-index: 10;
+        left: 150px;
+        top: 680px;
+        width: 390px;
+        height: 50px;
+        font-size: 26px;
+        border: 3px solid;
+    }
+
+    .main_header > .main_nav > .main_form > .Label_password3 {
+        position: absolute;
+        z-index: 10;
+        left: 150px;
+        top: 780px;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+
+    .main_header > .main_nav > .main_form > .Label_password4 {
+        position: absolute;
+        z-index: 10;
+        left: 150px;
+        top: 810px;
+        width: 390px;
+        height: 50px;
+        font-size: 26px;
+        border: 3px solid;
+    }
+
+    .main_header > .main_nav > .main_form > .SignUp > .MAINIMG4 {
+        position: absolute;
+        z-index: 20;
+        width: 316px;
+        height: 68.5px;
+        top: 875px;
+        left: 194px;
+    }
+
+    .main_header > .main_nav > .main_form > .main_p {
+        position: absolute;
+        z-index: 20;
+        width: 316px;
+        height: 68.5px;
+        top: 960px;
+        left: 184px;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+
+    .main_header > .main_nav > .main_form > .GotoLogin > .main_p2 {
+        position: absolute;
+        z-index: 20;
+        width: 316px;
+        height: 68.5px;
+        top: 960px;
+        left: 424px;
+        font-weight: bolder;
+        font-size: 20px;
+        color: #19A4AA;
+    }

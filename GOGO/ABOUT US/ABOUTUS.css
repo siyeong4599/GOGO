@@ -1,0 +1,150 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* 헤더 */
+
+.main_header {
+    position: relative;
+}
+
+.LOGIN > .Login_Page {
+    position: absolute;
+    background-color: none;
+    z-index: 10;
+    left: 1350px;
+    top: 10px;
+    color: #47D3D9;
+}
+
+.JOIN > .Join_Page {
+    position : absolute;
+    z-index: 10;
+    left: 1465px;
+    top: 10px;
+    color: #47D3D9;
+    background-color: none;
+}
+
+.MYPAGE > .Mypage_page {
+    position: absolute;
+    z-index: 10;
+    left: 1550px;
+    top: 10px;
+    color: #47D3D9;
+    background-color: none;
+}
+
+.main_header > .main_nav > .main_img {
+    position: absolute;
+    width: 1710px;
+}
+
+.main_header > .main_nav > .main_p {
+    position: absolute;
+    z-index: 10;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    top: 4px;
+    left: 15px;
+}
+
+.main_header > .main_nav > .main_page > .main_p2 {
+    position: absolute;
+    z-index: 10;
+    color: #47D3D9;
+    font-weight: bolder;
+    top: 30px;
+    left: 15px;
+    font-size: 80px;
+}
+
+.main_p3 {
+    position: absolute;
+    z-index: 10;
+    left: 530px;
+    top: 90px;
+    font-weight: bolder;
+    color: #47D3D9
+}
+
+.main_p4 {
+    position: absolute;
+    z-index: 10;
+    left: 730px;
+    top: 90px;
+    font-weight: bolder;
+    color: black;
+}
+
+.main_p5 {
+    position: absolute;
+    z-index: 10;
+    left: 930px;
+    top: 90px;
+    font-weight: bolder;
+    color: black;
+}
+
+.main_p6 {
+    position: absolute;
+    z-index: 10;
+    left: 1130px;
+    top: 90px;
+    font-weight: bolder;
+    color: black;
+}
+
+.main_p7 {
+    position: absolute;
+    z-index: 10;
+    left: 1330px;
+    top: 90px;
+    font-weight: bolder;
+    color: black;
+}
+
+.main_section > .Section_img {
+    position: absolute;
+    top: 150px;
+    width: 1700px;
+    height: 1289px;
+}
+
+.Section_img2 {
+    position: absolute;
+    z-index: 10;
+    width: 73px;
+    height: 75px;
+    top: 1102px;
+    left: 182px;
+}
+
+.Section_img3 {
+    position: absolute;
+    z-index: 10;
+    width: 73px;
+    height: 75px;
+    top: 1104px;
+    left: 278px;
+}
+
+.Section_img4 {
+    position: absolute;
+    z-index: 10;
+    width: 73px;
+    height: 75px;
+    top: 1104px;
+    left: 378px;
+}
+
+.Section_img5 {
+    position: absolute;
+    z-index: 10;
+    width: 73px;
+    height: 75px;
+    top: 1104px;
+    left: 475px;
+}

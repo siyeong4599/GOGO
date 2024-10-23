@@ -1,0 +1,424 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+}
+
+body {
+    width: 1680px;
+    height: 1305px;
+}
+
+/* 해더 */
+.main_header { 
+    width: 1680px;
+    height: 110px;
+}
+
+.header_bottom {
+    position: relative;
+    width: 1680px;
+    height: 70px;
+}
+/**/
+
+.LOGINLINK:visited { color: #47D3D9; }
+.JOINLINK:visited { color: #47D3D9; }
+.MYPAGELINK:visited { color: #47D3D9; }
+
+.main_p1 {
+    position: absolute;
+    z-index: 10;
+    top: 12px;
+    left: 1380px;
+}
+
+.main_p2 {
+    position: absolute;
+    z-index: 10;
+    top: 12px;
+    left: 1475px;
+}
+
+.main_p3 {
+    position: absolute;
+    z-index: 10;
+    top: 12px;
+    left: 1550px;
+}
+/**/
+.GOGOimglogo1 {
+    position: absolute;
+    z-index: 10;
+    bottom: -50px;
+    left: 100px;
+    width: 200px;
+    height: 55px;
+}
+
+.GOGOimglogo2 {
+    position: absolute;
+    z-index: 10;
+    bottom: -50px;
+    left: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.GOGOimglogo3 {
+    position: absolute;
+    width: 1710px;
+}
+
+.GOGOIntroduce {
+    position: absolute;
+    color: white;
+    z-index: 10;
+    font-weight: bolder;
+    font-size: 20px;
+    top: 10px;
+    left: 10px;
+}
+
+.main_p4 {
+    position: absolute;
+    top: 90px;
+    left: 600px;
+}
+
+.main_p5 {
+    position: absolute;
+    top: 90px;
+    left: 800px;
+}
+
+.main_p6 {
+    position: absolute;
+    top: 90px;
+    left: 1000px;
+}
+
+.main_p7 {
+    position: absolute;
+    top: 90px;
+    left: 1200px;
+}
+
+.main_p8 {
+    position: absolute;
+    top: 90px;
+    left: 1400px;
+}
+
+/* 세션 */
+.main_section {
+    position: relative; 
+    width: 1680px;
+    height: 832px;
+}
+
+.SECTIONIMG {
+    width: 1680px;
+}
+/**/
+.SECTIONIMG2 {
+    position: absolute;
+    right: 30px;
+    top: 80px;
+    z-index: 10;
+    width: 1000px; height: 50px;
+}
+
+/*.SECTIONIMG3 {
+    position: absolute;
+    z-index: 10;
+    right: 90px;
+    top: 140px;
+} */
+
+.SECTIONIMG4 {
+    position: absolute;
+    z-index: 10;
+    right: 600px;
+    top: 380px;
+    width: 450px; height: 400px;
+}
+
+.SECTIONIMG5 {
+    position: absolute;
+    z-index: 20;
+    right: 855px;
+    top: 400px;
+    width: 180px; height: 50px;
+}
+
+.SECTIONIMG6 {
+    position: absolute;
+    z-index: 20;
+    right: 805px;
+    top: 450px;
+    width: 180px; height: 50px;
+}
+
+.SECTIONIMG7 {
+    position: absolute;
+    z-index: 30;
+    right: 50px;
+    top: 720px;
+    width: 200px; height: 70px;
+}
+
+.SECTIONIMG8 {
+    position: absolute;
+    z-index: 30;
+    right: 140px;
+    top: 737px;
+    width: 100px; height: 50px;
+}
+
+.SECTIONIMG9 {
+    position: absolute;
+    z-index: 30;
+    right: 60px;
+    top: 738px;
+    width: 40px; height: 30px;
+}
+/**/
+/* 어사이드 */
+.main_aside {
+    position: relative;
+    width: 1680px;
+    height: 363px;
+}
+
+.ASIDEIMG {
+    width: 1680px;
+    height: 363px;
+}
+/**/
+.ASIDEIMG2 {
+    position: absolute;
+    bottom: 223px;
+    left: 30px;
+    width: 320px; height: 120px;
+}
+
+.ASIDEIMG3 {
+    position: absolute;
+    bottom: 253px;
+    left: 500px;
+    width: 100px; height: 30px;
+}
+
+.ASIDEIMG4 {
+    position: absolute;
+    width: 150px; height: 150px;
+    bottom: 80px;
+    left: 480px;
+}
+
+.ASIDEIMG5 {
+    position: absolute;
+    bottom: 123px;
+    left: 710px;
+    width: 100px; height: 100px;
+}
+
+.ASIDEIMG6 {
+    position: absolute;
+    bottom: 253px;
+    left: 900px;
+    width: 100px; height: 30px;
+}
+
+.ASIDEIMG7 {
+    position: absolute;
+    width: 150px; height: 150px;
+    bottom: 80px;
+    left: 880px;
+}
+
+.ASIDEIMG5 {
+    position: absolute;
+    bottom: 123px;
+    left: 710px;
+}
+
+.ASIDEIMG8 {
+    position: absolute;
+    bottom: 123px;
+    left: 1110px;
+    width: 100px; height: 100px;
+}
+
+.ASIDEIMG9 {
+    position: absolute;
+    bottom: 253px;
+    left: 1300px;
+    z-index: 50;
+    width: 100px; height: 40px;
+}
+
+.ASIDEIMG10 {
+    position: absolute;
+    width: 150px; height: 15q0px;
+    bottom: 82px;
+    left: 1280px;
+}
+/**/
+/**/
+.aside_p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    position: absolute; 
+    bottom: 120px;
+    left: 510px;
+}
+
+.aside_p2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    position: absolute; 
+    bottom: 120px;
+    left: 910px;
+}
+
+.aside_p3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    position: absolute; 
+    bottom: 120px;
+    left: 1280px;
+}
+
+/*특수 에니메이션 (회전) */
+
+* { margin: 0; padding: 0 }
+html, body { height: 100%; }
+
+body {
+    width: 1680px;
+    height: 1305px;
+    margin: 0 auto;
+}
+
+#canvas {
+    position: absolute;
+    z-index: 30;
+    width: 100%; height: 200px;
+    top: 220px;
+    left: 530px;
+    -webkit-perspective: 1500px;  
+}
+
+#merry {
+    position: absolute;
+    left: -260px; top: -170px;
+
+    transform-style: preserve-3d;
+    animation: rint 15s infinite linear;
+}
+
+@keyframes rint {
+    from { transform: rotateY(0deg); }
+    to { transform: rotateY(360deg); }
+}
+
+.face {
+    position: absolute;
+    left: 0; top: 0;
+    margin-left: -115px;
+
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+.cell {
+    width: 230px; height: 100px;
+    background: url('GOGO!.png');
+    background-size: 100% 100%;
+
+    transition-duration: 0.1s;
+    transform: translateZ(0px);
+}
+
+.face:nth-child(1) { transform: rotateY(  0deg); }
+.face:nth-child(2) { transform: rotateY( 36deg); }
+.face:nth-child(3) { transform: rotateY( 72deg); }
+.face:nth-child(4) { transform: rotateY(108deg); }
+.face:nth-child(5) { transform: rotateY(144deg); }
+.face:nth-child(6) { transform: rotateY(180deg); }
+.face:nth-child(7) { transform: rotateY(216deg); }
+.face:nth-child(8) { transform: rotateY(252deg); }
+.face:nth-child(9) { transform: rotateY(288deg); }
+.face:nth-child(10){ transform: rotateY(324deg); }
+
+.cell:hover {
+    transform: scale(1.2) translateZ(50px);
+}
+
+
+/* 자동 슬라이드 */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+/*Basic structure of slider*/
+.container{
+    width: 1680px;
+    height: 780px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    top: 550px;
+    left: 50%;
+    border-radius: 8px;
+
+}
+
+/*Area of images*/
+.wrapper{
+    width: 100%;
+    display: flex;
+    animation: slide 16s infinite;
+}
+
+img{
+    width: 100%;
+}
+/*Animation activated by keyframes*/
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+
+/* 메뉴버튼 */
+

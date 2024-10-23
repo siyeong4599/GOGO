@@ -1,0 +1,312 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body{
+	background-image:url(images/tot_bgImg.png);
+	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+
+/*=====================================================================================
+위치 정렬
+=====================================================================================*/
+
+.alignC					{ text-align:center;}
+.alignL					{ text-align:left;}
+.alignR					{ text-align:right;} 
+	
+.valignT					{ vertical-align:top;}
+.valignB					{ vertical-align:bottom;}
+
+/* 간격 정렬 */
+.padWH10		{ padding:10px; }
+.padH3			{ padding: 0 0 5px 0; }
+.padH5			{ padding: 0 0 5px 0; }
+
+/* 사이즈 */
+.wd100			{width:100%;}
+.wd90			{width:90%;}
+.wd80			{width:80%;}
+.wd70			{width:70%;}
+.wd60			{width:60%;}
+.wd50			{width:50%;}
+.wd40			{width:40%;}
+.wd30			{width:30%;}
+.wd20			{width:20%;}
+.wd15			{width:15%;}
+.wd10			{width:10%;}
+.wd5			{width:5%;}
+
+/*  box color 및 높이*/
+.bd_col_1	{height: 25px; border-top:1px solid #C0BCBC;        border-bottom:1px solid #C0BCBC;     border-left:1px solid #C0BCBC;     border-right:1px solid #C0BCBC;}
+
+/*=====================================================================================
+SEARCH BOX
+=====================================================================================*/
+
+.sch_box				{ border:1px solid #dbdbdb; padding:15px 35px; background:url(../../images/menu/box_bg.gif) bottom repeat-x;}
+.sch_shadow				{ height:4px; background:url(../../images/menu/search_bg.gif) bottom repeat-x;}
+.sch_title				{ height:28px; color:#1a3e73; font-weight:bold; padding-left:17px;background:url(../../images/menu/blit.gif) no-repeat; }
+.box_sz150				{ width:150px;}
+.box_sz125				{ width:125px;}
+.box_sz80				{ width:80px;}
+.box_sz100				{ width:100px;}
+.box_sz70				{ width:70px; height:17px; color:#666666; font-size:12px; background-color:#FFFFFF;}
+.box_sz50				{ width:50px; height:17px; color:#666666; font-size:12px; background-color:#FFFFFF;}
+.box_sz40				{ width:40px; height:17px; color:#666666; font-size:12px; background-color:#FFFFFF;}
+.sch_input				{ height:20px; border:1px solid #b8c1d2;padding:2px 0 0 3px;margin:0;}
+.input_none				{ height:20px; border:1px solid #b8c1d2;padding:1px 3px 0 3px;margin:0;}
+.input_read				{ height:20px; border:0px solid #b8c1d2;padding:1px 3px 0 3px;margin:0;}
+.no-border 				{ height:20px; border:0px solid #b8c1d2;padding:1px 3px 0 3px;margin:0;}
+.no-borderR				{ height:20px; border:0px solid #b8c1d2;padding:1px 3px 0 3px;margin:0;text-align:right;}
+.txt_area				{ border:1px solid #b8c1d2;padding:10px 0 0 10px;margin:0;width:100%;}
+.txt_area_read			{ border:0px solid #b8c1d2;padding:10px 0 0 10px;margin:0;width:100%;}
+.txt_area_no_border		{ border:0px solid #b8c1d2;padding:10px 0 0 10px;margin:0;width:100%;}
+.input_han				{ height:20px; border:1px solid #b8c1d2;padding:1px 3px 0 3px;margin:0;ime-mode:active;}
+.input_upper			{ height:20px; border:1px solid #b8c1d2;padding:1px 3px 0 3px;margin:0;text-align:right;ime-mode:uppercase;}
+.input_alNum			{ height:20px; border:1px solid #b8c1d2;padding:1px 3px 0 3px;margin:0;text-align:right;ime-mode:disabled;}
+.input_mk 				{ height:20px; border:0px solid #dee8f4;background-color:#dee8f4;padding:1px 3px 0 3px;margin:0;font-weight:bold;text-align:center;vertical-align:center;color:#3a5aa6;}
+.input_mkL 				{ height:20px; border:0px solid #dee8f4;background-color:#dee8f4;padding:1px 3px 0 3px;margin:0;font-weight:bold;text-align:left;vertical-align:center;color:#3a5aa6;}
+
+
+/* 헤더 */
+
+    .main_header {
+        position: relative;
+    }
+
+    .LOGIN > .Login_Page {
+        position: absolute;
+        background-color: none;
+        z-index: 10;
+        left: 1350px;
+        top: 10px;
+        color: #47D3D9;
+    }
+
+    .JOIN > .Join_Page {
+        position : absolute;
+        z-index: 10;
+        left: 1465px;
+        top: 10px;
+        color: #47D3D9;
+        background-color: none;
+    }
+
+    .MYPAGE > .Mypage_page {
+        position: absolute;
+        z-index: 10;
+        left: 1550px;
+        top: 10px;
+        color: #47D3D9;
+        background-color: none;
+    }
+
+    .main_header > .main_nav > .main_img {
+        position: absolute;
+        width: 1710px;
+    }
+
+    .main_header > .main_nav > .main_p {
+        position: absolute;
+        z-index: 10;
+        color: white;
+        font-size: 20px;
+        font-weight: bolder;
+        top: 10px;
+        left: 15px;
+    }
+
+    .main_header > .main_nav > .main_page > .main_p2 {
+        position: absolute;
+        z-index: 10;
+        color: #47D3D9;
+        font-weight: bolder;
+        top: 25px;
+        left: 15px;
+        font-size: 85px;
+    }
+
+    .main_p3 {
+        position: absolute;
+        z-index: 10;
+        left: 600px;
+        top: 90px;
+        font-weight: bolder;
+        color: black;
+        font-size: 18px;
+        
+    }
+
+    .main_p4 {
+        position: absolute;
+        z-index: 10;
+        left: 800px;
+        top: 90px;
+        font-weight: bolder;
+        color: black;
+        font-size: 18px;
+    }
+
+    .main_p5 {
+        position: absolute;
+        z-index: 10;
+        left: 1000px;
+        top: 90px;
+        font-weight: bolder;
+        color: #47D3D9;
+       	font-size: 18px;
+    }
+
+    .main_p6 {
+        position: absolute;
+        z-index: 10;
+        left: 1200px;
+        top: 90px;
+        font-weight: bolder;
+        color: black;
+        font-size: 18px;
+    }
+
+    .main_p7 {
+        position: absolute;
+        z-index: 10;
+        left: 1400px;
+        top: 90px;
+        font-weight: bolder;
+        color: black;
+        font-size: 18px;
+    }
+
+    .main_p8 {
+        position: absolute;
+        z-index: 10;
+        top: 170px;
+        left: 140px;
+        font-size: 58px;
+        color: #0F589C;
+    }
+
+    .Section_img {
+        position: absolute;
+        top: 170px;
+        left: 0px;
+        width: 1300px;
+    }
+
+    .Section_img2 {
+        position: absolute;
+        z-index: 10;
+        top: 170px;
+        left: 50px;
+        width: 82px; height: 78px;
+    }
+    
+    .main_table,.main_table th,.main_table td{border:0}
+    
+    .main_table {
+    	position: absolute;
+        top: 270px;
+        left: 50px;
+        width:95%;
+        border-spacing:0;
+        padding:0;
+        border-collapse:collapse;
+		font-family:Poppins;
+		font-size:12px;
+		table-layout:fixed;
+		border-bottom:0.5px solid #C0BCBC;
+    }
+    
+    .main_table th{
+		padding:10px 12px 0px 12px;
+    	border-top:1px solid #C0BCBC;
+    	background:#F6F4F4C7;
+    	color:#7B7A7A;
+    	font-weight:bold;
+    	text-align:right;
+    	vertical-align:top;
+    	height: 30px;
+    	text-align:center;
+    }
+    .main_table th.ctn{
+    	border-top:1px solid #C0BCBC;
+    	background:#F6F4F4C7;
+    	color:#7B7A7A;
+    	font-weight:bold;
+    	text-align:right;
+    	vertical-align:top;
+    	height: 30px;
+    	text-align:center;
+    	vertical-align:middle;
+    }
+    
+    .main_table td{
+		padding:5px 12px 5px 12px;
+		border-top:1px solid #C0BCBC;
+		line-height:16px;
+		vertical-align:top;
+    	height: 30px;
+    }
+
+    .main_tr {
+        border-top: 1px solid #C0BCBC;
+        margin-left: 0px;
+    }
+
+    .th_title {
+        background-color: #F6F4F4;
+        height: 60px;
+    }
+
+    .name {
+        width: 969px; height: 40px;
+        font-size: 26px;
+        margin-left: 0px;
+    }
+
+    .th_document {
+        background-color: #F6F4F4;
+        height: 30px;
+    }
+
+    .name2 {
+        width: 269px; height: 40px;
+        font-size: 26px;
+    }
+
+    .th_ID{
+        background-color: #F6F4F4;
+        height: 60px;
+    }
+
+    .name3 {
+        width: 269px; height: 40px;
+        font-size: 26px;
+        margin-top: 0px;
+        text-align: center;
+    }
+    
+    .tbl_bo_search {
+		margin: 0 0 6px
+	}
+	
+	.tbl_bo_search .linkBtn li .btn {
+		box-sizing: border-box;
+
+		position: absolute;
+		left: 183px;
+		top: 940px;
+		
+		padding: 2px 10px 2px 6px;
+		line-height: 27px;
+		background: #fbfbfb;
+		color: #333;
+		border: 1px solid #bfbfbf;
+		letter-spacing: -.0875em;
+		vertical-align: middle;
+		border-radius: 3px;
+	}
